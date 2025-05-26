@@ -226,7 +226,15 @@
         <li><a href=/lapangan>Daftar Lapangan</a></li>
         <li><a href="/pesanan">Pesanan Saya</a></li>
         <li><a href="/profil">Profil Saya</a></li>
-        <li><a href="/logout" class="logout">Keluar <i class="fa-solid fa-right-from-bracket" style="margin-left: 5px"></i></a></li>
+        <li>
+          <form method="POST" action="{{ route('logout') }}" id="logout-form">
+            @csrf
+            <button type="submit" class="logout" style="background: none; border: none; color: white; font: inherit; cursor: pointer; display: flex; align-items: center;">
+              Keluar <i class="fa-solid fa-right-from-bracket" style="margin-left: 5px"></i>
+            </button>
+          </form>
+        </li>
+
     </ul>
   </div>
 

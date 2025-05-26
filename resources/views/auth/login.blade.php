@@ -166,7 +166,7 @@
                 @endif
 
                 <div class="form-group">
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="email" name="email" value="{{ old('email') }}" placeholder="Email" required>
                 </div>
                 <div class="form-group">
                     <input type="password" name="password" placeholder="Kata Sandi" required>
