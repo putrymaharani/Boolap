@@ -54,7 +54,7 @@
             position: relative;
             width: 100%;
             height: 90vh;
-            background-image: url('/build/assets/badminton.jpg');
+            background-image: url('/assets/badminton.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -85,7 +85,7 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="{{ asset('/build/assets/logoboolap.png') }}" alt="Logo Boolap">
+            <img src="{{ asset('/assets/logoboolap.png') }}" alt="Logo Boolap">
         </div>
         <div class="nav-buttons">
             <button class="btn-login" onclick="window.location.href='/login'">Masuk</button>

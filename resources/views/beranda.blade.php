@@ -219,7 +219,7 @@
 
   <div class="navbar">
     <div class="logo">
-      <img src="{{ asset('/build/assets/logoboolap.png') }}" alt="Logo Boolap">
+      <img src="{{ asset('/assets/logoboolap.png') }}" alt="Logo Boolap">
     </div>
     <ul class="nav-menu">
         <li><a href="/beranda">Beranda</a></li>
@@ -239,7 +239,7 @@
   </div>
 
   <div class="hero">
-    <img src="{{ asset('/build/assets/human_welcome.png') }}" alt="Welcome" class="hero-icon">
+    <img src="{{ asset('/assets/human_welcome.png') }}" alt="Welcome" class="hero-icon">
     <div class="hero-text">
       <h2>Halo, Saveridica!</h2>
       <p>Selamat datang di layanan peminjaman lapangan bulu tangkis.</p>

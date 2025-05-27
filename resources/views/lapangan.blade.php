@@ -107,7 +107,7 @@
 
   <div class="navbar">
     <div class="logo">
-      <img src="{{ asset('/build/assets/logoboolap.png') }}" alt="Logo Boolap">
+      <img src="{{ asset('/assets/logoboolap.png') }}" alt="Logo Boolap">
     </div>
     <ul class="nav-menu">
       <li><a href="/beranda">Beranda</a></li>
@@ -128,7 +128,7 @@
   <div class="content">
     <!-- Daftar lapangan ditampilkan di sini -->
     <div class="lapangan-card">
-      <img src="/build/assets/lapangan1.jpg" alt="Lapangan 1">
+      <img src="/assets/lapangan1.jpg" alt="Lapangan 1">
       <div class="lapangan-info">
         <h3>Lapangan 1</h3>
         <div class="status tersedia">Tersedia</div>
@@ -141,7 +141,7 @@
     </div>
 
     <div class="lapangan-card">
-      <img src="/build/assets/lapangan2.jpg" alt="Lapangan 2">
+      <img src="/assets/lapangan2.jpg" alt="Lapangan 2">
       <div class="lapangan-info">
         <h3>Lapangan 2</h3>
         <div class="status tidak-tersedia">Tidak Tersedia</div>
